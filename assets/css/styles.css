@@ -48,8 +48,8 @@ body {
 }
 
 section {
-  /* max-width: 1100px;
-  margin: auto; */
+  max-width: 1100px;
+  margin: auto;
 }
 
 /* CSS Resets end */
@@ -109,15 +109,33 @@ nav ul li {
   max-width: 68.75rem;
   margin: auto;
 }
+ /* .ash {
+  background-image: url(\assets\images\shadows.png);
+  height: 27.5rem;
+  width: 37.5rem;
+} */
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: 17.5rem;
+  /* padding: 10px 10px 10px 10px; */
+  width: 27.5rem;
+  padding: 0.25rem;
+  border-radius: 3px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  border:2px solid rgba(82, 79, 79,.1);
+  background: url(img/tiger.png) no-repeat;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:190px;
+  -webkit-border-radius:290px;
+  border-radius:290px;
 }
 
 .bio {
   width: 25rem;
-  padding: 0.625rem;
+  padding: 0.925rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
@@ -135,7 +153,14 @@ nav ul li {
 /* More about */
 .more-about {
   background-color: var(--bg-color);
+  color:rgba(0, 0, 0, 0.75);
   padding: 1rem 6rem;
+  border:2px solid #fff;
+  background: url(img/tiger.png) no-repeat;
+  box-shadow: 10px 10px 10px 10px #ccc;
+  -moz-box-shadow:10px 10px 10px 10px #ccc;
+  -webkit-box-shadow:10px 10px 10px 10px #ccc;
+  -khtml-box-shadow:10px 10px 10px 10px #ccc;
 }
 
 .more-about h2 {
